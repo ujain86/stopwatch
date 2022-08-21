@@ -48,7 +48,7 @@ start.addEventListener('click', function(){
     start.setAttribute('disabled','true');
 
     //To call startTimer function
-    interval = setInterval(startTimer,10);
+    interval = setInterval(startTimer,1000);
 
 })
 
