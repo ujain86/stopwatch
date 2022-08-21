@@ -1,9 +1,12 @@
+/* Added style to stopwatch  */
 #watch{
     height: 200px;
     width: 300px;
     border: 1px solid black;
+    margin: 10px auto;
 }
 
+/* Added style to timer div */
 #timer{
     display: flex;
     justify-content: center;
@@ -16,6 +19,7 @@
     font-family: sans-serif;
 }
 
+/* Added style to buttons */
 button{
     margin: 10px;
     padding: 10px 20px;
@@ -25,6 +29,13 @@ button{
     
 }
 
+/* Added style to stop button */
 #stop{
     background-color: rgb(211, 9, 9);
+}
+
+
+/* Class */
+.not-allowed{
+    cursor: not-allowed;
 }
