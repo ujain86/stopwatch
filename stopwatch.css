@@ -35,8 +35,8 @@ button{
     background-color: black;
     color: white;
     border-radius: 5px;
-    
-}
+    cursor: pointer;
+    }
 
 /* Added style to stop button */
 #stop{
